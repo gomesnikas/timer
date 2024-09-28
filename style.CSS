@@ -1,0 +1,47 @@
+body {
+  background-color: black; /* Changer le fond en noir */
+  color: white; /* Changer la couleur du texte en blanc pour plus de visibilité */
+}
+
+#clock {
+  font-size: 7em; /* Taille de l'horloge */
+  margin-bottom: 5px;
+  text-align: down;
+  height: 35vh
+  color: #ecf0f1; /* Couleur gris clair pour l'horloge */
+}
+
+#timer {
+  font-size: 5em;
+  color: ; /* Le timer sera blanc au départ */
+}
+
+.negative {
+  color: #c0392b; /* Rouge noirâtre pour le temps écoulé */
+}
+
+body.fullscreen #timer {
+  font-size: 19em;
+  text-align: center;
+  margin-top: 30%;
+}
+
+body.fullscreen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 35vh;
+  margin: 0;
+}
+
+body.fullscreen #controls,
+body.fullscreen #fullscreen-btn {
+  display: none;
+}
+
+#fullscreen-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1em;
+}
